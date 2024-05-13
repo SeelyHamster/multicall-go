@@ -5,7 +5,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/depocket/multicall-go/utils"
+	"github.com/SeelyHamster/multicall-go/utils"
+
 	"github.com/stretchr/testify/assert"
 )
 

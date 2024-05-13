@@ -7,8 +7,9 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/depocket/multicall-go/core"
-	"github.com/depocket/multicall-go/utils"
+	"github.com/SeelyHamster/multicall-go/core"
+	"github.com/SeelyHamster/multicall-go/utils"
+
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"

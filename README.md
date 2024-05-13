@@ -6,9 +6,9 @@
     <br />
     <a href="https://app.depocket.com/listing">View Integrated dApps</a>
     ·
-    <a href="https://github.com/depocket/multicall-go/issues">Report Bug</a>
+    <a href="https://multicall-go/issues">Report Bug</a>
     ·
-    <a href="https://github.com/depocket/multicall-go/issues">Request Feature</a>
+    <a href="https://multicall-go/issues">Request Feature</a>
   </p>
 </div>
 
@@ -19,7 +19,7 @@
 #### Download and install it:
 
 ```sh
-go get github.com/depocket/multicall-go
+go get multicall-go
 ```
 
 ## Todo
@@ -37,7 +37,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/depocket/multicall-go/call"
+	"multicall-go/call"
 	"log"
 	"math/big"
 )
