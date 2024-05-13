@@ -126,9 +126,7 @@ func (ct *Contract) AddMethod(signature string) *Contract {
 		panic(err)
 	}
 	ct.contractAbi = newAbi
-	if err != nil {
-		panic(err)
-	}
+
 	return ct
 }
 

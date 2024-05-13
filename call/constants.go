@@ -9,14 +9,14 @@ type ChainConfig struct {
 
 const (
 	Arbitrum  Chain = "arbitrum"
-	Aurora          = "aurora"
-	Avalanche       = "avalanche"
-	Bsc             = "bsc"
-	Ethereum        = "ethereum"
-	Fantom          = "fantom"
-	Moonbeam        = "moonbeam"
-	Moonriver       = "moonriver"
-	Celo            = "celo"
+	Aurora    Chain = "aurora"
+	Avalanche Chain = "avalanche"
+	Bsc       Chain = "bsc"
+	Ethereum  Chain = "ethereum"
+	Fantom    Chain = "fantom"
+	Moonbeam  Chain = "moonbeam"
+	Moonriver Chain = "moonriver"
+	Celo      Chain = "celo"
 )
 
 var DefaultChainConfigs = map[Chain]ChainConfig{
